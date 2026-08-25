@@ -18,10 +18,15 @@
 
 * { box-sizing: border-box; }
 
-html { scroll-behavior: smooth; }
+html {
+  max-width: 100%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
 
 body {
   margin: 0;
+  max-width: 100%;
   overflow-x: hidden;
   color: var(--ink);
   background: var(--paper);
