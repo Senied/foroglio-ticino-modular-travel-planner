@@ -1,0 +1,76 @@
+{
+  "schema_version": "1.0",
+  "guide_version": "1.3",
+  "title": "Foroglio Modular Travel Planner 2026",
+  "release_status": "PASS — PUBLIC-CLEARED",
+  "released_at": "2026-08-25T17:48:46+02:00",
+  "travel_research_cutoff": "2026-08-24",
+  "public_image_clearance_date": "2026-08-25",
+  "trip_dates": {
+    "start": "2026-09-25",
+    "end": "2026-09-30"
+  },
+  "lineage": [
+    {
+      "version": "1.0",
+      "status": "recovered predecessor"
+    },
+    {
+      "version": "1.1",
+      "status": "referenced but not recoverable in this workspace"
+    },
+    {
+      "version": "1.2",
+      "status": "audited private-planning predecessor; not public because image provenance was incomplete"
+    },
+    {
+      "version": "1.3",
+      "status": "additive public-cleared release; all 45 images replaced with distinct licence-verified Commons images"
+    }
+  ],
+  "release_summary": {
+    "pdf_pages": 75,
+    "all_pages_visually_reviewed": true,
+    "logical_photos": 45,
+    "visible_photo_placements": 94,
+    "unique_external_link_targets": 178,
+    "release_gate": "PASS"
+  },
+  "controlling_artifacts": [
+    {
+      "filename": "Foroglio_Modular_Travel_Planner_2026_v1_3.html",
+      "role": "primary self-contained interactive guide",
+      "bytes": 18557350,
+      "sha256": "68CA4A93ADD642583AAC929D79953EAE22C06157CB043BB69C1DC2B747CFEAD2"
+    },
+    {
+      "filename": "Foroglio_Modular_Travel_Planner_2026_v1_3.pdf",
+      "role": "print-ready A4 guide",
+      "bytes": 17641206,
+      "sha256": "7E9F325CAD2290E7E44A0C9CAA075A3A45D4CC0CCF78AE3B8143344418D66504"
+    },
+    {
+      "filename": "Foroglio_Modular_Travel_Planner_2026_v1_3_photo_manifest.json",
+      "role": "public image provenance, licence and occurrence manifest",
+      "bytes": 78763,
+      "sha256": "7BFDF8328AF05AE2D4B82F6A57BAC018B51D6C58CDBF1E2077FF90A312AD3970"
+    },
+    {
+      "filename": "Foroglio_Modular_Travel_Planner_2026_v1_3_QA.json",
+      "role": "browser, PDF, photo and package QA evidence",
+      "bytes": 9581,
+      "sha256": "CAC18670A5450002A70FC34CDE85C8E902169B3908222E951A73AD29CFEB8AD1"
+    }
+  ],
+  "publication_files": [
+    "Foroglio_Modular_Travel_Planner_2026_v1_3.html",
+    "Foroglio_Modular_Travel_Planner_2026_v1_3.pdf",
+    "Foroglio_Modular_Travel_Planner_2026_v1_3_photo_manifest.json",
+    "Foroglio_Modular_Travel_Planner_2026_v1_3_QA.json",
+    "Foroglio_Modular_Travel_Planner_2026_v1_3_release_manifest.json",
+    "Foroglio_Modular_Travel_Planner_2026_v1_3_SHA256SUMS.txt",
+    "Foroglio_Modular_Travel_Planner_2026_v1_3_bundle.zip"
+  ],
+  "supersession_note": "Version 1.3 supersedes v1.2 for public distribution without erasing the accepted private predecessor.",
+  "live_data_note": "Availability, prices, weather, road and trail access, and local restrictions remain time-dependent."
+}
