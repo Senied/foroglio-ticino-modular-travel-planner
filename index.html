@@ -27,33 +27,36 @@
 
   <main id="main" tabindex="-1">
     <section class="hero" aria-labelledby="hero-title">
+      <picture class="hero__media" aria-hidden="true">
+        <source type="image/jpeg" srcset="assets/images/hero-foroglio-640.jpg 640w, assets/images/hero-foroglio-960.jpg 960w, assets/images/hero-foroglio.jpg 1920w" sizes="100vw" />
+        <img src="assets/images/hero-foroglio.jpg" alt="" width="1920" height="1280" fetchpriority="high" decoding="async" />
+      </picture>
+      <div class="hero__shade" aria-hidden="true"></div>
       <div class="hero__copy">
-        <p class="eyebrow">Modular journey planner · 2026 edition</p>
+        <p class="wordmark-hero">Foroglio</p>
+        <p class="eyebrow">Ticino · Lombardy · 2026</p>
         <h1 id="hero-title">Stone villages.<br><em>Wild water.</em><br>High alpine days.</h1>
         <p class="hero__lede">A flexible journey from Milan via Bergamo to Foroglio, through Val Bavona and Val Calnègia, then onward to Ascona and Val Verzasca.</p>
         <div class="action-row">
           <a class="button button--primary" href="guide/Foroglio_Modular_Travel_Planner_2026_v1_5.html">Open interactive guide</a>
           <a class="button button--secondary" href="guide/Foroglio_Modular_Travel_Planner_2026_v1_5.pdf">Read the PDF</a>
         </div>
-        <dl class="hero__facts" aria-label="Guide highlights">
-          <div><dt>06</dt><dd>standalone modules</dd></div>
-          <div><dt>45</dt><dd>credited photographs</dd></div>
-          <div><dt>01</dt><dd>complete offline bundle</dd></div>
-        </dl>
       </div>
+    </section>
 
-      <aside class="route-card" aria-labelledby="route-card-title">
-        <p class="route-card__label" id="route-card-title">The route, at a glance</p>
-        <ol class="route-card__list">
-          <li><span class="route-card__number">01</span><div><strong>Bergamo</strong><small>Upper City gateway</small></div></li>
-          <li><span class="route-card__number">02</span><div><strong>Foroglio</strong><small>Val Bavona base</small></div></li>
-          <li><span class="route-card__number">03</span><div><strong>Val Calnègia</strong><small>Stone paths and alpine water</small></div></li>
-          <li><span class="route-card__number">04</span><div><strong>Cròsa</strong><small>Conditional high-alpine branch</small></div></li>
-          <li><span class="route-card__number">05</span><div><strong>Ascona</strong><small>Lake Maggiore recovery</small></div></li>
-          <li><span class="route-card__number">06</span><div><strong>Val Verzasca</strong><small>Dam, river and village circuit</small></div></li>
-        </ol>
-        <p class="route-card__note">Build one day, a short escape, or the complete journey.</p>
-      </aside>
+    <section class="section route-glance" aria-labelledby="route-card-title">
+      <div class="section-heading">
+        <p class="eyebrow" id="route-card-title">The route, at a glance</p>
+        <h2>Build one day, a short escape, or the complete journey.</h2>
+      </div>
+      <ol class="route-card__list route-card__list--inline">
+        <li><span class="route-card__number">01</span><div><strong>Bergamo</strong><small>Upper City gateway</small></div></li>
+        <li><span class="route-card__number">02</span><div><strong>Foroglio</strong><small>Val Bavona base</small></div></li>
+        <li><span class="route-card__number">03</span><div><strong>Val Calnègia</strong><small>Stone paths and alpine water</small></div></li>
+        <li><span class="route-card__number">04</span><div><strong>Cròsa</strong><small>Conditional high-alpine branch</small></div></li>
+        <li><span class="route-card__number">05</span><div><strong>Ascona</strong><small>Lake Maggiore recovery</small></div></li>
+        <li><span class="route-card__number">06</span><div><strong>Val Verzasca</strong><small>Dam, river and village circuit</small></div></li>
+      </ol>
     </section>
 
     <section class="section journey" id="journey" aria-labelledby="journey-title">
